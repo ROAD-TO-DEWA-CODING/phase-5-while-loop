@@ -3,9 +3,9 @@
 ### SOAL 1 : Tampilkanlah seperti dibawah ini, dengan menggunakan loop
 
 ```js
-123;
-45;
-6;
+123
+45
+6
 ```
 
 </br>
@@ -31,5 +31,5 @@
   _<b>NOTE : satu bulan hanya 30 hari</b>_
 
 ```
-OUTPUT : superman dan batman akan berjaga di hari ... dan di tanggal ...
+OUTPUT : superman dan batman akan berjaga bersama lagi di hari ... dan di tanggal ...
 ```
