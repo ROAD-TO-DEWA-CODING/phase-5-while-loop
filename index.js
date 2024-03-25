@@ -9,8 +9,6 @@
 
 
 
-
-
 //? RECALL if else
 // let a = 3
 
@@ -30,6 +28,10 @@
 // if (a === 3) {
 //     console.log("jasjus");
 // }
+
+
+
+
 
 
 //? switch case
@@ -67,9 +69,6 @@ while (random !== 10) {
 }
 
 console.log('perlu mengambil angka random sebanyak ' + count + ' untuk mendapatkan angka 10');
-
-
-
 
 
 

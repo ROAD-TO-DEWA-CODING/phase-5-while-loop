@@ -1,35 +1,41 @@
-let batman = 7
-let superman = 6
+let batman = 6
+let superman = 7
+let date = 1
+let day = 7
 
 while (batman !== superman) {
-    if (batman > superman) superman += 6
-    else batman += 7
-
+    if (batman > superman) superman += 7
+    else batman += 6
 }
-let result = superman % 30
 
-let hari = result
-switch (hari) {
-    case 1,8:
-        console.log('superman dan batman akan berjaga bersama lagi di hari senin');
+date += superman
+if (date % 7 !== 0) day = date % 7
+if (date % 30 !== 0) date %= 30
+else date = 30
+console.log(day, date);
+
+switch (day) {
+    case 1:
+        day = 'senin'
         break;
-    case 2,9:
-        console.log('superman dan batman akan berjaga bersama lagi di hari selasa');
+    case 2:
+        day = 'selasa'
         break;
-    case 3,10:
-        console.log('superman dan batman akan berjaga bersama lagi di hari rabu');
+    case 3:
+        day = 'rabu'
         break;
-    case 4,11:
-        console.log('superman dan batman akan berjaga bersama lagi di hari kamis');
+    case 4:
+        day = 'kamis'
         break;
-    case 5,12:
-        console.log('superman dan batman akan berjaga bersama lagi di hari jumat');
+    case 5:
+        day = 'jumat'
         break;
-    case 6,13:
-        console.log('superman dan batman akan berjaga bersama lagi di hari sabtu');
+    case 6:
+        day = 'sabtu'
         break;
     default:
-        console.log('superman dan batman akan berjaga bersama lagi di hari minggu');
+        day = 'minggu'
         break;
 }
-console.log('dan di tanggal ' + result);
+
+console.log(`superman dan batman akan berjaga bersama lagi di hari ${day} tanggal ${date}`);
